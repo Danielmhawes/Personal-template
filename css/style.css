@@ -1,0 +1,126 @@
+body{
+    top: 0;
+    margin: 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 2%;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.navtop{
+    top: 0;
+
+}
+
+.grid-container-1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    top: 0;
+    grid-gap: 15%;
+    height: 60px;
+    padding-top: 2% ; 
+    position: fixed;
+    background-color: white; 
+}
+
+.logo{
+    margin-left: 40% ;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 20%;
+    grid-gap: 0%;
+    margin-right: 30%;
+    font-size: 18px;
+}
+
+.navbar{
+    text-decoration: none;
+    color: rgb(149, 149, 150);
+}
+
+:hover.navbar{
+    color: rgb(243, 55, 55);
+}
+
+.btn-1{
+    background-color: rgb(243, 55, 55);
+    border:  rgb(36, 148, 252);
+    width: 120px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: -10%;
+    border-radius: 7%;
+}
+
+/* header section */
+header{
+    background-image: url(../img/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 2%;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.heading{
+    padding-top: 15%;
+    margin-left: 30%;
+}
+.company-name{
+    font-size: 50px;
+}
+.company-slogan{
+    font-size: 30px;
+    margin-left: 13%;
+    color: rgb(243, 55, 55);;
+}
+/* header{
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+} */
+.section-1{
+    margin-top: -20px;
+    padding-top: 50px;
+    background-color: rgba(209, 209, 209, 0.658);
+}
+
+.section-info{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 10%;
+    height: 300px;
+    font-size: 17px;
+    margin-left: 23%;
+    margin-right: 20%;
+    margin-top: 4%;
+    text-align: center;
+    letter-spacing: 1px;
+    
+    
+}
+h1{
+    text-align: center;
+}
+
+.box-info{
+    padding-top: 20px;
+}
+
+
+
+.section-2{
+    background-image: url(../img/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 2%;
+    background-attachment: fixed;
+    height: 400px;
+}
